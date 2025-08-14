@@ -1,0 +1,910 @@
+[2025-08-11 19:20:33] local.INFO: تسجيل الدخول الناجح {"user_id":1,"username":"admin","ip":"::1","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","timestamp":"2025-08-11 19:20:32"} 
+[2025-08-11 19:31:26] local.INFO: Provider found in database {"provider_type":"telecom","provider_id":10,"provider_name":"SanadCard Telecom","has_settings":false,"settings_type":"NULL"} 
+[2025-08-11 19:31:26] local.ERROR: Failed to decrypt config value {"provider_type":"telecom","config_key":"password","error":"The MAC is invalid."} 
+[2025-08-11 19:31:26] local.INFO: Provider config loaded from configs table {"provider_type":"telecom","config_keys":["domain_name","userid","username","password","timeout","ssl_verify","user_agent"]} 
+[2025-08-11 19:31:26] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:31:26] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:31:26] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:31:26] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:31:26] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:31:26] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940686421477","username":"779207808","mobile":"777712420","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940686421477779207808777712420","finalToken":"fab8a1ef98f525cf15867c61e6cbe33e"} 
+[2025-08-11 19:31:26] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754940686421477&token=fab8a1ef98f525cf15867c61e6cbe33e&action=query"} 
+[2025-08-11 19:31:26] local.ERROR: TelecomProvider: Telecom request failed {"provider":"telecom","domain":"sanadcard.yrbso.net","error":"cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754940686421477&token=fab8a1ef98f525cf15867c61e6cbe33e&action=query","has_response":false,"response_body":null} 
+[2025-08-11 19:31:38] local.WARNING: فشل تسجيل الدخول {"username":"admin","ip":"::1","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","timestamp":"2025-08-11 19:31:38"} 
+[2025-08-11 19:31:56] local.INFO: تسجيل الدخول الناجح {"user_id":1,"username":"admin","ip":"::1","user_agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36","timestamp":"2025-08-11 19:31:56"} 
+[2025-08-11 19:32:05] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:32:05] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:32:05] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:32:05] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:32:05] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:32:05] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940725156867","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940725156867779207808000000000","finalToken":"f927c5c8238df480bb56d6e9f68cd399"} 
+[2025-08-11 19:32:05] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940725156867&token=f927c5c8238df480bb56d6e9f68cd399"} 
+[2025-08-11 19:32:05] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940725156867\"}"} 
+[2025-08-11 19:32:05] local.INFO: Provider found in database {"provider_type":"ccxt","provider_id":9,"provider_name":"CCXT Unified Exchange","has_settings":true,"settings_type":"array"} 
+[2025-08-11 19:32:05] local.INFO: CCXT provider settings raw {"settings":{"exchange_id":"binance","api_key":"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB","api_secret":"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq","password":"","sandbox":false,"timeout":30000,"enableRateLimit":true},"settings_json":"{\"exchange_id\":\"binance\",\"api_key\":\"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB\",\"api_secret\":\"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq\",\"password\":\"\",\"sandbox\":false,\"timeout\":30000,\"enableRateLimit\":true}"} 
+[2025-08-11 19:32:05] local.INFO: CCXT provider config processed {"provider_type":"ccxt","config_keys":["exchange_id","api_key","api_secret","password","sandbox","timeout","enableRateLimit"],"final_config":{"exchange_id":"binance","api_key":"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB","api_secret":"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq","password":"","sandbox":false,"timeout":30000,"enableRateLimit":true}} 
+[2025-08-11 19:32:07] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:32:08] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:32:08] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:32:08] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:32:08] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:32:08] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:32:08] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940728102326","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940728102326779207808000000000","finalToken":"07442d8ce60537ec6700ec9820fc641b"} 
+[2025-08-11 19:32:08] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940728102326&token=07442d8ce60537ec6700ec9820fc641b"} 
+[2025-08-11 19:32:08] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940728102326\"}"} 
+[2025-08-11 19:32:09] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:32:45] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:32:45] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:32:45] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:32:45] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:32:45] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:32:45] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940765425185","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940765425185779207808000000000","finalToken":"eb266f1a818dd450e7c1de1419d27fc7"} 
+[2025-08-11 19:32:45] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940765425185&token=eb266f1a818dd450e7c1de1419d27fc7"} 
+[2025-08-11 19:32:46] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940765425185\"}"} 
+[2025-08-11 19:32:47] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:32:48] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:32:48] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:32:48] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:32:48] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:32:48] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:32:48] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940768149509","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940768149509779207808000000000","finalToken":"6179967a74e52163debb06e9c81487cb"} 
+[2025-08-11 19:32:48] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940768149509&token=6179967a74e52163debb06e9c81487cb"} 
+[2025-08-11 19:32:48] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940768149509\"}"} 
+[2025-08-11 19:32:50] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:33:28] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:33:28] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:33:28] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:33:28] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:33:28] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:33:28] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940808386175","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940808386175779207808000000000","finalToken":"77aa596fd6d259dcb501960fa81f2837"} 
+[2025-08-11 19:33:28] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940808386175&token=77aa596fd6d259dcb501960fa81f2837"} 
+[2025-08-11 19:33:28] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940808386175\"}"} 
+[2025-08-11 19:33:30] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:33:31] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:33:31] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:33:31] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:33:31] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:33:31] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:33:31] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940811375828","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940811375828779207808000000000","finalToken":"32ddd604d31852351b874261f1e0b73c"} 
+[2025-08-11 19:33:31] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940811375828&token=32ddd604d31852351b874261f1e0b73c"} 
+[2025-08-11 19:33:31] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940811375828\"}"} 
+[2025-08-11 19:33:33] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:33:43] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:33:43] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:33:43] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:33:43] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:33:43] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:33:43] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940823418118","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940823418118779207808000000000","finalToken":"6a10a753e309fecd49243ccb4d6434eb"} 
+[2025-08-11 19:33:43] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940823418118&token=6a10a753e309fecd49243ccb4d6434eb"} 
+[2025-08-11 19:33:43] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940823418118\"}"} 
+[2025-08-11 19:33:46] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:33:46] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:33:46] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:33:46] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:33:46] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:33:46] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:33:46] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940826129972","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940826129972779207808000000000","finalToken":"a29fdb0ee0ca45c57cd9116681ccc095"} 
+[2025-08-11 19:33:46] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940826129972&token=a29fdb0ee0ca45c57cd9116681ccc095"} 
+[2025-08-11 19:33:47] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940826129972\"}"} 
+[2025-08-11 19:33:48] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:35:04] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:35:04] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:35:04] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:35:04] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:35:04] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:35:04] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940904148221","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940904148221779207808000000000","finalToken":"6899e1a46fa3655c40d1d41bfb3c9d7a"} 
+[2025-08-11 19:35:04] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940904148221&token=6899e1a46fa3655c40d1d41bfb3c9d7a"} 
+[2025-08-11 19:35:04] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940904148221\"}"} 
+[2025-08-11 19:35:06] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:35:07] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:35:07] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:35:07] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:35:07] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:35:07] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:35:07] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940907341294","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940907341294779207808000000000","finalToken":"1f3c61a4220c09a6ccad172d17a15eab"} 
+[2025-08-11 19:35:07] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940907341294&token=1f3c61a4220c09a6ccad172d17a15eab"} 
+[2025-08-11 19:35:07] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940907341294\"}"} 
+[2025-08-11 19:35:09] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:35:40] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:35:40] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:35:40] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:35:40] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:35:40] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:35:40] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940940908281","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940940908281779207808000000000","finalToken":"6209a681e6725d32c412c66565024a22"} 
+[2025-08-11 19:35:40] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940940908281&token=6209a681e6725d32c412c66565024a22"} 
+[2025-08-11 19:35:40] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940940908281\"}"} 
+[2025-08-11 19:35:42] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:35:43] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:35:43] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:35:43] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:35:43] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:35:43] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:35:43] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940943349764","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940943349764779207808000000000","finalToken":"bf07f508e4555de9520641c063a88538"} 
+[2025-08-11 19:35:43] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940943349764&token=bf07f508e4555de9520641c063a88538"} 
+[2025-08-11 19:35:43] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940943349764\"}"} 
+[2025-08-11 19:35:44] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:36:33] local.INFO: بدء معالجة الطلبات التلقائية {"specific_order_id":null,"timestamp":"2025-08-11T19:36:33.388642Z"} 
+[2025-08-11 19:36:33] local.ERROR: خطأ في خدمة معالجة الطلبات {"error":"SQLSTATE[42S22]: Column not found: 1054 Unknown column 'provider_order_id' in 'where clause' (Connection: mysql, SQL: select * from `purchase_requests` where `status` = pending and `provider_id` is null and `provider_order_id` is null order by `created_at` asc limit 10)","trace":"#0 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(783): Illuminate\\Database\\Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(431): Illuminate\\Database\\Connection->run('select * from `...', Array, Object(Closure))
+#2 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2914): Illuminate\\Database\\Connection->select('select * from `...', Array, true)
+#3 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2902): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3456): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2903): Illuminate\\Database\\Query\\Builder->onceWithColumns(Array, Object(Closure))
+#6 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(739): Illuminate\\Database\\Query\\Builder->get(Array)
+#7 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Eloquent\\Builder.php(723): Illuminate\\Database\\Eloquent\\Builder->getModels(Array)
+#8 C:\\xampp1\\htdocs\\a\\laravel\\app\\Services\\OrderProcessingService.php(127): Illuminate\\Database\\Eloquent\\Builder->get()
+#9 C:\\xampp1\\htdocs\\a\\laravel\\app\\Services\\OrderProcessingService.php(48): App\\Services\\OrderProcessingService->getOrdersToProcess(NULL)
+#10 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Controllers\\ProviderController.php(271): App\\Services\\OrderProcessingService->processNewOrders()
+#11 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\ProviderController->processOrders()
+#12 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('processOrders', Array)
+#13 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(260): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\ProviderController), 'processOrders')
+#14 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Route->run()
+#16 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\AdminMiddleware.php(26): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\AdminMiddleware->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogAllActivities.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogAllActivities->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogLogoutActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogLogoutActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogUserActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogUserActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\CheckBanStatus.php(73): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\CheckBanStatus->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SetLocale.php(60): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetLocale->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#39 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#47 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#48 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#49 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#50 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#51 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#52 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#53 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#54 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#56 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#57 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#58 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#65 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#66 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#67 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#68 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#69 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#70 C:\\xampp1\\htdocs\\a\\laravel\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#71 {main}"} 
+[2025-08-11 19:36:36] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:36:36] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:36:36] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:36:36] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:36:36] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:36:36] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940996337398","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940996337398779207808000000000","finalToken":"0a101bc12c6be16a77db22e25a8950a3"} 
+[2025-08-11 19:36:36] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940996337398&token=0a101bc12c6be16a77db22e25a8950a3"} 
+[2025-08-11 19:36:36] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940996337398\"}"} 
+[2025-08-11 19:36:38] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:36:39] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:36:39] local.WARNING: Failed to decrypt config value, using encrypted value: The MAC is invalid.  
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:36:39] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:36:39] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:36:39] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:36:39] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"b84a27237bbbe906f551c99d4c0b4355","transId":"1754940999371766","username":"779207808","mobile":"000000000","tokenString":"b84a27237bbbe906f551c99d4c0b43551754940999371766779207808000000000","finalToken":"5ccb578765dbbd9cc73d8b203622d04b"} 
+[2025-08-11 19:36:39] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754940999371766&token=5ccb578765dbbd9cc73d8b203622d04b"} 
+[2025-08-11 19:36:39] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"1008\",\"resultDesc\":\"Token is incorrect!\",\"transid\":\"1754940999371766\"}"} 
+[2025-08-11 19:36:40] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:37:20] local.INFO: Provider config updated {"provider_id":"10","config_key":"password","is_encrypted":true} 
+[2025-08-11 19:37:41] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:37:41] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:37:41] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:37:41] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:37:41] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941061101533","username":"779207808","mobile":"000000000","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941061101533779207808000000000","finalToken":"4e7b3ae6ca6413c52eb381595aefac1a"} 
+[2025-08-11 19:37:41] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754941061101533&token=4e7b3ae6ca6413c52eb381595aefac1a"} 
+[2025-08-11 19:37:41] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"0\",\"resultDesc\":\"success\",\"balance\":48,\"transid\":\"1754941061101533\"}"} 
+[2025-08-11 19:37:43] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:37:44] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:37:44] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:37:44] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:37:44] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:37:44] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941064221599","username":"779207808","mobile":"000000000","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941064221599779207808000000000","finalToken":"510a883a4a92e8f9afb42cf4c0f89fc3"} 
+[2025-08-11 19:37:44] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754941064221599&token=510a883a4a92e8f9afb42cf4c0f89fc3"} 
+[2025-08-11 19:37:44] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"0\",\"resultDesc\":\"success\",\"balance\":48,\"transid\":\"1754941064221599\"}"} 
+[2025-08-11 19:37:46] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 19:39:13] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:39:13] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:39:13] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:39:13] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:39:13] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941153231127","username":"779207808","mobile":"777712420","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941153231127779207808777712420","finalToken":"e34ce7acac42b4821315978346608aa6"} 
+[2025-08-11 19:39:13] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941153231127&token=e34ce7acac42b4821315978346608aa6&action=query"} 
+[2025-08-11 19:39:13] local.ERROR: TelecomProvider: Telecom request failed {"provider":"telecom","domain":"sanadcard.yrbso.net","error":"cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941153231127&token=e34ce7acac42b4821315978346608aa6&action=query","has_response":false,"response_body":null} 
+[2025-08-11 19:39:46] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:39:46] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:39:46] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:39:46] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:39:46] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941186134021","username":"779207808","mobile":"777712420","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941186134021779207808777712420","finalToken":"6601d5216a6358725a3fd87136175aa3"} 
+[2025-08-11 19:39:46] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941186134021&token=6601d5216a6358725a3fd87136175aa3&action=query"} 
+[2025-08-11 19:39:46] local.ERROR: TelecomProvider: Telecom request failed {"provider":"telecom","domain":"sanadcard.yrbso.net","error":"cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941186134021&token=6601d5216a6358725a3fd87136175aa3&action=query","has_response":false,"response_body":null} 
+[2025-08-11 19:41:00] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:41:00] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:41:00] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:41:00] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:41:00] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941260203457","username":"779207808","mobile":"777712420","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941260203457779207808777712420","finalToken":"bc6def43fd42b016cbd80ce22d726bba"} 
+[2025-08-11 19:41:00] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941260203457&token=bc6def43fd42b016cbd80ce22d726bba&action=query"} 
+[2025-08-11 19:41:01] local.ERROR: TelecomProvider: Telecom request failed {"provider":"telecom","domain":"sanadcard.yrbso.net","error":"cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941260203457&token=bc6def43fd42b016cbd80ce22d726bba&action=query","has_response":false,"response_body":null} 
+[2025-08-11 19:45:41] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:45:41] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:45:41] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:45:41] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:45:41] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941541200722","username":"779207808","mobile":"777712420","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941541200722779207808777712420","finalToken":"1a3a1f3fba166933377de077bfc3a95b"} 
+[2025-08-11 19:45:41] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941541200722&token=1a3a1f3fba166933377de077bfc3a95b&action=query"} 
+[2025-08-11 19:45:42] local.ERROR: TelecomProvider: Telecom request failed {"provider":"telecom","domain":"sanadcard.yrbso.net","error":"cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://sanadcard.yrbso.net/api/yr/yem?userid=1236&mobile=777712420&transid=1754941541200722&token=1a3a1f3fba166933377de077bfc3a95b&action=query","has_response":false,"response_body":null} 
+[2025-08-11 19:51:31] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 19:51:31] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 19:51:31] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 19:51:31] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 19:51:31] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754941891134395","username":"779207808","mobile":"000000000","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754941891134395779207808000000000","finalToken":"139da2b4eb642fac11fb114b8c7e370b"} 
+[2025-08-11 19:51:31] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754941891134395&token=139da2b4eb642fac11fb114b8c7e370b"} 
+[2025-08-11 19:51:31] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"0\",\"resultDesc\":\"success\",\"balance\":48,\"transid\":\"1754941891134395\"}"} 
+[2025-08-11 19:51:33] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 20:25:21] local.ERROR: Route [dashboard] not defined. {"view":{"view":"C:\\xampp1\\htdocs\\a\\laravel\\resources\\views\\profile\\edit.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-124945612 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1590</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-124945612\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","user":"<pre class=sf-dump id=sf-dump-2072520599 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\User</span> {<a class=sf-dump-ref>#1624</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">users</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:28</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>username</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"8 characters\">&#1605;&#1581;&#1605;&#1583; &#1581;&#1587;&#1606;</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"17 characters\">admin@adminye.com</span>\"
+    \"<span class=sf-dump-key>phone</span>\" => \"<span class=sf-dump-str title=\"9 characters\">123456789</span>\"
+    \"<span class=sf-dump-key>account_number</span>\" => \"<span class=sf-dump-str title=\"6 characters\">101004</span>\"
+    \"<span class=sf-dump-key>balance</span>\" => \"<span class=sf-dump-str title=\"6 characters\">100.00</span>\"
+    \"<span class=sf-dump-key>currency</span>\" => \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+    \"<span class=sf-dump-key>profile_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_front_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_back_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_selfie_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_verification_status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">pending</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$12$6RvS44MRWhSpcxt6XmEhn.EB1W9gkkjTnXZ/Sb1l81wPCdth.Ctiu</span>\"
+    \"<span class=sf-dump-key>role</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>is_active</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>is_banned</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>ban_reason</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>banned_by</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>banned_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>ban_expires_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_permanently_banned</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>warning_count</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>last_warning_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email_verified_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-08 00:21:04</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-11 19:23:50</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:28</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>username</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"8 characters\">&#1605;&#1581;&#1605;&#1583; &#1581;&#1587;&#1606;</span>\"
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"17 characters\">admin@adminye.com</span>\"
+    \"<span class=sf-dump-key>phone</span>\" => \"<span class=sf-dump-str title=\"9 characters\">123456789</span>\"
+    \"<span class=sf-dump-key>account_number</span>\" => \"<span class=sf-dump-str title=\"6 characters\">101004</span>\"
+    \"<span class=sf-dump-key>balance</span>\" => \"<span class=sf-dump-str title=\"6 characters\">100.00</span>\"
+    \"<span class=sf-dump-key>currency</span>\" => \"<span class=sf-dump-str title=\"3 characters\">USD</span>\"
+    \"<span class=sf-dump-key>profile_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_front_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_back_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_selfie_image</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>id_verification_status</span>\" => \"<span class=sf-dump-str title=\"7 characters\">pending</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$12$6RvS44MRWhSpcxt6XmEhn.EB1W9gkkjTnXZ/Sb1l81wPCdth.Ctiu</span>\"
+    \"<span class=sf-dump-key>role</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>is_active</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>is_banned</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>ban_reason</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>banned_by</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>banned_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>ban_expires_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_permanently_banned</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>warning_count</span>\" => <span class=sf-dump-num>0</span>
+    \"<span class=sf-dump-key>last_warning_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email_verified_at</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-08 00:21:04</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2025-08-11 19:23:50</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: <span class=sf-dump-note>array:9</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>email_verified_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"6 characters\">hashed</span>\"
+    \"<span class=sf-dump-key>is_active</span>\" => \"<span class=sf-dump-str title=\"7 characters\">boolean</span>\"
+    \"<span class=sf-dump-key>balance</span>\" => \"<span class=sf-dump-str title=\"9 characters\">decimal:2</span>\"
+    \"<span class=sf-dump-key>is_banned</span>\" => \"<span class=sf-dump-str title=\"7 characters\">boolean</span>\"
+    \"<span class=sf-dump-key>banned_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+    \"<span class=sf-dump-key>ban_expires_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+    \"<span class=sf-dump-key>is_permanently_banned</span>\" => \"<span class=sf-dump-str title=\"7 characters\">boolean</span>\"
+    \"<span class=sf-dump-key>last_warning_at</span>\" => \"<span class=sf-dump-str title=\"8 characters\">datetime</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">password</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:23</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">username</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"4 characters\">name</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"5 characters\">email</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"5 characters\">phone</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"14 characters\">account_number</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"7 characters\">balance</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"8 characters\">currency</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"13 characters\">profile_image</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"14 characters\">id_front_image</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"13 characters\">id_back_image</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"15 characters\">id_selfie_image</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"22 characters\">id_verification_status</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"8 characters\">password</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"4 characters\">role</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"9 characters\">is_active</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"9 characters\">is_banned</span>\"
+    <span class=sf-dump-index>16</span> => \"<span class=sf-dump-str title=\"10 characters\">ban_reason</span>\"
+    <span class=sf-dump-index>17</span> => \"<span class=sf-dump-str title=\"9 characters\">banned_by</span>\"
+    <span class=sf-dump-index>18</span> => \"<span class=sf-dump-str title=\"9 characters\">banned_at</span>\"
+    <span class=sf-dump-index>19</span> => \"<span class=sf-dump-str title=\"14 characters\">ban_expires_at</span>\"
+    <span class=sf-dump-index>20</span> => \"<span class=sf-dump-str title=\"21 characters\">is_permanently_banned</span>\"
+    <span class=sf-dump-index>21</span> => \"<span class=sf-dump-str title=\"13 characters\">warning_count</span>\"
+    <span class=sf-dump-index>22</span> => \"<span class=sf-dump-str title=\"15 characters\">last_warning_at</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">rememberTokenName</span>: \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">accessToken</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-2072520599\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Route [dashboard] not defined. at C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
+[stacktrace]
+#0 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('dashboard', Array, true)
+#1 C:\\xampp1\\htdocs\\a\\laravel\\resources\\views\\profile\\edit.blade.php(162): route('dashboard')
+#2 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\xampp1\\\\htdoc...')
+#3 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp1\\\\htdoc...', Array)
+#5 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp1\\\\htdoc...', Array)
+#6 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp1\\\\htdoc...', Array)
+#7 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#8 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#9 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#11 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#12 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#13 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#14 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogAllActivities.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogAllActivities->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogLogoutActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogLogoutActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogUserActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogUserActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\CheckBanStatus.php(73): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\CheckBanStatus->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SetLocale.php(60): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetLocale->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#35 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#42 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#43 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#44 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#46 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#65 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#66 C:\\xampp1\\htdocs\\a\\laravel\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#67 {main}
+
+[previous exception] [object] (Symfony\\Component\\Routing\\Exception\\RouteNotFoundException(code: 0): Route [dashboard] not defined. at C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\UrlGenerator.php:477)
+[stacktrace]
+#0 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(811): Illuminate\\Routing\\UrlGenerator->route('dashboard', Array, true)
+#1 C:\\xampp1\\htdocs\\a\\laravel\\storage\\framework\\views\\ee6067ad3a487c4761e7b1f913478a14.php(176): route('dashboard')
+#2 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(123): require('C:\\\\xampp1\\\\htdoc...')
+#3 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('C:\\\\xampp1\\\\htdoc...', Array)
+#5 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(72): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('C:\\\\xampp1\\\\htdoc...', Array)
+#6 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(207): Illuminate\\View\\Engines\\CompilerEngine->get('C:\\\\xampp1\\\\htdoc...', Array)
+#7 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(190): Illuminate\\View\\View->getContents()
+#8 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(159): Illuminate\\View\\View->renderContents()
+#9 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#11 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(918): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#12 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(885): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#13 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(806): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#14 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogAllActivities.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#16 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogAllActivities->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#17 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogLogoutActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#18 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogLogoutActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\LogUserActivity.php(20): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\LogUserActivity->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\CheckBanStatus.php(73): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\CheckBanStatus->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SetLocale.php(60): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SetLocale->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(57): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#28 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#35 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(807): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#42 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#43 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#44 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#45 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#46 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#47 C:\\xampp1\\htdocs\\a\\laravel\\app\\Http\\Middleware\\SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#49 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#50 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#51 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#54 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#55 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#56 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#57 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#58 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#59 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#60 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#61 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#62 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#63 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#64 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#65 C:\\xampp1\\htdocs\\a\\laravel\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#66 C:\\xampp1\\htdocs\\a\\laravel\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#67 {main}
+"} 
+[2025-08-11 21:47:05] local.INFO: Provider found in database {"provider_type":"telecom","provider_id":10,"provider_name":"SanadCard Telecom","has_settings":true,"settings_type":"array"} 
+[2025-08-11 21:47:05] local.INFO: Provider config loaded from configs table {"provider_type":"telecom","config_keys":["domain_name","userid","username","password","timeout","ssl_verify","user_agent"]} 
+[2025-08-11 21:47:05] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 21:47:05] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 21:47:05] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 21:47:05] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 21:47:05] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754948825384350","username":"779207808","mobile":"000000000","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754948825384350779207808000000000","finalToken":"886418613ba2505bffb56bed65432699"} 
+[2025-08-11 21:47:05] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754948825384350&token=886418613ba2505bffb56bed65432699"} 
+[2025-08-11 21:47:05] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"0\",\"resultDesc\":\"success\",\"balance\":48,\"transid\":\"1754948825384350\"}"} 
+[2025-08-11 21:47:05] local.INFO: Provider found in database {"provider_type":"ccxt","provider_id":9,"provider_name":"CCXT Unified Exchange","has_settings":true,"settings_type":"array"} 
+[2025-08-11 21:47:05] local.INFO: CCXT provider settings raw {"settings":{"exchange_id":"binance","api_key":"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB","api_secret":"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq","password":"","sandbox":false,"timeout":30000,"enableRateLimit":true},"settings_json":"{\"exchange_id\":\"binance\",\"api_key\":\"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB\",\"api_secret\":\"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq\",\"password\":\"\",\"sandbox\":false,\"timeout\":30000,\"enableRateLimit\":true}"} 
+[2025-08-11 21:47:05] local.INFO: CCXT provider config processed {"provider_type":"ccxt","config_keys":["exchange_id","api_key","api_secret","password","sandbox","timeout","enableRateLimit"],"final_config":{"exchange_id":"binance","api_key":"mv8NXjnAj2kWzu1MJsPauvqt2xJjbvhkhfSro1bEsUbiVaukLi0FzIDZ2A8cHZDB","api_secret":"yYSdPHbZXPVhhSd3OzUqjNrQadOoeUdvVMcIkhwoMm1gph3cwftiTQZsg8FDUWOq","password":"","sandbox":false,"timeout":30000,"enableRateLimit":true}} 
+[2025-08-11 21:47:07] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-11 21:47:07] local.INFO: Loading Telecom config from database {"provider_id":10,"configs_count":7} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"domain_name","value":"sanadcard.yrbso.net"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"userid","value":"1236"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"username","value":"779207808"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"password","value":"***ENCRYPTED***"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"timeout","value":"60"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"ssl_verify","value":"true"} 
+[2025-08-11 21:47:07] local.INFO: Loaded config {"key":"user_agent","value":"Adminye-Business/4.0"} 
+[2025-08-11 21:47:07] local.INFO: Telecom config loaded {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808","hasPassword":true} 
+[2025-08-11 21:47:07] local.INFO: TelecomProvider initialized successfully. {"domainName":"sanadcard.yrbso.net","userId":"1236","username":"779207808"} 
+[2025-08-11 21:47:07] local.INFO: Token generation {"password":"***HIDDEN***","hashPassword":"c9966b6ea3c2586323ae0e218d552bbd","transId":"1754948827397146","username":"779207808","mobile":"000000000","tokenString":"c9966b6ea3c2586323ae0e218d552bbd1754948827397146779207808000000000","finalToken":"7ac101359b1cd7bfb7d2609ed15b6d03"} 
+[2025-08-11 21:47:07] local.INFO: Sending Telecom request {"url":"https://sanadcard.yrbso.net/api/yr/info?action=balance&userid=1236&mobile=000000000&transid=1754948827397146&token=7ac101359b1cd7bfb7d2609ed15b6d03"} 
+[2025-08-11 21:47:08] local.INFO: Telecom response received {"status_code":200,"body":"{\"resultCode\":\"0\",\"resultDesc\":\"success\",\"balance\":48,\"transid\":\"1754948827397146\"}"} 
+[2025-08-11 21:47:09] local.ERROR: Provider Error: Balance check failed: binance {"code":-2015,"msg":"Invalid API-key, IP, or permissions for action."} {"provider":"App\\Services\\Providers\\CCXT\\CCXTProvider","config":[]} 
+[2025-08-14 19:06:16] local.ERROR: file_put_contents(): Exclusive locks are not supported for this stream {"exception":"[object] (ErrorException(code: 0): file_put_contents(): Exclusive locks are not supported for this stream at /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:204)
+[stacktrace]
+#0 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/storage/emulat...', 204)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():254}(2, 'file_put_conten...', '/storage/emulat...', 204)
+#2 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(204): file_put_contents('/storage/emulat...', 'eyJpdiI6IkJFTlN...', 2)
+#3 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put('/storage/emulat...', 'eyJpdiI6IkJFTlN...', true)
+#4 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Store.php(172): Illuminate\\Session\\FileSessionHandler->write('qML1k75TmUg9Dxa...', 'eyJpdiI6IkJFTlN...')
+#5 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Support/Manager.php(191): Illuminate\\Session\\Store->save()
+#6 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\\Support\\Manager->__call('save', Array)
+#7 /storage/emulated/0/laravel/app/Http/Middleware/SetLocale.php(41): Illuminate\\Support\\Facades\\Facade::__callStatic('save', Array)
+#8 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SetLocale->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#10 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#12 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#14 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#16 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#17 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#19 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#21 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#23 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#29 /storage/emulated/0/laravel/app/Http/Middleware/SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():142}(Object(Illuminate\\Http\\Request))
+#30 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#32 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#35 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#38 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#40 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#42 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#44 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#46 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#47 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#48 /storage/emulated/0/laravel/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#49 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/storage/emulat...')
+#50 {main}
+"} 
+[2025-08-14 19:06:17] local.ERROR: file_put_contents(): Exclusive locks are not supported for this stream {"exception":"[object] (ErrorException(code: 0): file_put_contents(): Exclusive locks are not supported for this stream at /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:204)
+[stacktrace]
+#0 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/storage/emulat...', 204)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():254}(2, 'file_put_conten...', '/storage/emulat...', 204)
+#2 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(204): file_put_contents('/storage/emulat...', 'eyJpdiI6Im1FdXR...', 2)
+#3 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put('/storage/emulat...', 'eyJpdiI6Im1FdXR...', true)
+#4 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Store.php(172): Illuminate\\Session\\FileSessionHandler->write('qML1k75TmUg9Dxa...', 'eyJpdiI6Im1FdXR...')
+#5 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(245): Illuminate\\Session\\Store->save()
+#6 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(130): Illuminate\\Session\\Middleware\\StartSession->saveSession(Object(Illuminate\\Http\\Request))
+#7 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#8 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#10 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#12 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#14 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#20 /storage/emulated/0/laravel/app/Http/Middleware/SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():142}(Object(Illuminate\\Http\\Request))
+#21 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#23 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#26 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#29 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#31 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#33 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#35 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#37 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 /storage/emulated/0/laravel/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/storage/emulat...')
+#41 {main}
+"} 
+[2025-08-14 19:06:24] local.ERROR: file_put_contents(): Exclusive locks are not supported for this stream {"exception":"[object] (ErrorException(code: 0): file_put_contents(): Exclusive locks are not supported for this stream at /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:204)
+[stacktrace]
+#0 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/storage/emulat...', 204)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():254}(2, 'file_put_conten...', '/storage/emulat...', 204)
+#2 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(204): file_put_contents('/storage/emulat...', 'eyJpdiI6InoxclJ...', 2)
+#3 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put('/storage/emulat...', 'eyJpdiI6InoxclJ...', true)
+#4 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Store.php(172): Illuminate\\Session\\FileSessionHandler->write('qML1k75TmUg9Dxa...', 'eyJpdiI6InoxclJ...')
+#5 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Support/Manager.php(191): Illuminate\\Session\\Store->save()
+#6 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(355): Illuminate\\Support\\Manager->__call('save', Array)
+#7 /storage/emulated/0/laravel/app/Http/Middleware/SetLocale.php(41): Illuminate\\Support\\Facades\\Facade::__callStatic('save', Array)
+#8 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SetLocale->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#10 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#12 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#14 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#15 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#16 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#17 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#19 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#21 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#23 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#24 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#25 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#26 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#27 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#28 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#29 /storage/emulated/0/laravel/app/Http/Middleware/SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():142}(Object(Illuminate\\Http\\Request))
+#30 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#32 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#35 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#38 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#40 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#42 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#43 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#44 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#46 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#47 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#48 /storage/emulated/0/laravel/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#49 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/storage/emulat...')
+#50 {main}
+"} 
+[2025-08-14 19:06:25] local.ERROR: file_put_contents(): Exclusive locks are not supported for this stream {"exception":"[object] (ErrorException(code: 0): file_put_contents(): Exclusive locks are not supported for this stream at /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:204)
+[stacktrace]
+#0 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/storage/emulat...', 204)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->{closure:Illuminate\\Foundation\\Bootstrap\\HandleExceptions::forwardsTo():254}(2, 'file_put_conten...', '/storage/emulat...', 204)
+#2 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(204): file_put_contents('/storage/emulat...', 'eyJpdiI6ImVIcUZ...', 2)
+#3 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/FileSessionHandler.php(90): Illuminate\\Filesystem\\Filesystem->put('/storage/emulat...', 'eyJpdiI6ImVIcUZ...', true)
+#4 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Store.php(172): Illuminate\\Session\\FileSessionHandler->write('qML1k75TmUg9Dxa...', 'eyJpdiI6ImVIcUZ...')
+#5 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(245): Illuminate\\Session\\Store->save()
+#6 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(130): Illuminate\\Session\\Middleware\\StartSession->saveSession(Object(Illuminate\\Http\\Request))
+#7 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\EncryptedStore), Object(Closure))
+#8 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#10 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#12 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#14 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(805): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#15 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#16 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#17 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#18 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#19 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():197}(Object(Illuminate\\Http\\Request))
+#20 /storage/emulated/0/laravel/app/Http/Middleware/SecurityHeaders.php(18): Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():142}(Object(Illuminate\\Http\\Request))
+#21 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\SecurityHeaders->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#23 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#26 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#29 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#31 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#33 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#34 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#35 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():158}:159}(Object(Illuminate\\Http\\Request))
+#37 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#38 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#39 /storage/emulated/0/laravel/public/index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#40 /storage/emulated/0/laravel/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('/storage/emulat...')
+#41 {main}
+"} 
